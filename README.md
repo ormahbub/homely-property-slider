@@ -2,42 +2,50 @@
 
 ![Slider Preview](assets/preview.png)
 
-A high-performance, responsive property gallery slider widget for Elementor Pro. Designed specifically for real estate listings, it features a primary focal slider with a synchronized vertical thumbnail track.
+A professional, highly customizable property gallery slider widget for Elementor. Specifically engineered for real estate and high-end listings, it features a primary focal slider synchronized with a versatile thumbnail navigation track.
+
+## 🚀 Version 1.5.2 Highlights
+
+- **Full Style Engine**: Total control over typography, colors, and spacing directly from the Elementor Style tab.
+- **Custom Icon Support**: Choose any icon from the Elementor Icon Library for navigation (Next/Prev).
+- **Flexible Layouts**: Switch thumbnail positions between Left and Right with a single click.
 
 ## Features
 
-- **Dynamic Data Support**: Fully compatible with Elementor Dynamic Tags (ACF Gallery, JetEngine, etc.).
-- **Dual-Slider Sync**: Primary main slider synced with a vertical thumbnail navigation.
-- **Interaction Options**: Supports drag/swipe, click-to-sync, and standard navigation arrows.
-- **Smart Responsive Design**: Automatically switches from a vertical thumbnail track on desktop to a horizontal layout on mobile devices.
-- **Performance Optimized**: Uses Swiper.js (Elementor's native library) with observers to ensure correct rendering even in complex layouts.
+- **Dynamic Data Support**: Native compatibility with Elementor Dynamic Tags (JetEngine, ACF Gallery, PODS, etc.).
+- **Dual-Slider Sync**: Primary main slider flawlessly synced with a vertical or horizontal thumbnail track.
+- **Interactive Thumbnails**: Includes click-to-sync, hover opacity states, and active border styling.
+- **Smart Responsive Design**: Seamlessly transitions from a vertical desktop sidebar to a horizontal mobile slider.
+- **Icon Hover States**: Professional hover animations and color transitions for navigation elements.
+- **Performance Optimized**: Leverages Elementor's native Swiper.js library to keep your site fast.
 
 ## Installation
 
-1. Download the plugin as a `.zip` file.
-2. In your WordPress Dashboard, go to **Plugins > Add New > Upload Plugin**.
-3. Select the zip file and click **Install Now**.
-4. **Activate** the plugin.
+1. Download the plugin folder `homely-property-slider`.
+2. Upload the folder to your `/wp-content/plugins/` directory via FTP, or upload as a `.zip` via the WordPress Dashboard.
+3. **Activate** the plugin through the 'Plugins' menu in WordPress.
 
 ## Usage
 
-1. Open any page or template in Elementor.
+1. Open any page or template in the Elementor Editor.
 2. Search for the **Property Gallery Slider** widget.
-3. Drag the widget into your section.
-4. Under the **Content** tab, select your images or click the **Dynamic Tags** icon to link to an ACF or JetEngine gallery field.
+3. **Content Tab**: Select images manually or use the **Dynamic Tags** icon to pull from custom fields. Set your thumbnail position and visibility.
+4. **Style Tab**: Customize the image border-radius, arrow colors (Normal & Hover), and thumbnail aspect ratios.
 
 ## Requirements
 
-- WordPress 5.0+
+- WordPress 5.8+
 - Elementor (Free or Pro)
+- PHP 7.4+
 
 ## Technical Details
 
-- **Swiper.js Integration**: Leverages Elementor's internal Swiper assets for minimal footprint.
-- **Observer Mode**: Includes `observer` and `observeParents` settings to prevent "blank slider" issues during AJAX loads or hidden tab rendering.
-- **Custom CSS**: Minimal scoped CSS for layout stability.
+- **Elementor Icons Manager**: Integrated with the native `Icons_Manager` class for full SVG and FontAwesome support.
+- **Observer Mode**: Pre-configured with `observer` and `observeParents` to prevent rendering issues in tabs or accordions.
+- **Scoped Styling**: All CSS is scoped to the widget ID to prevent conflicts with your theme.
 
 ---
 
 **Author:** Mahbub  
-**Version:** 1.3.0
+**Version:** 1.5.2  
+**License:** GPL-2.0+
